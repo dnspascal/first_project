@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       body:ListView(children: [
 ListTile(
   leading:CircleAvatar(),
-title: Text("denis"),
+title: Text("denise"),
                      subtitle: Text('message'),
                      trailing: Text('12:20'),
                      tileColor: Color.fromARGB(255, 3, 83, 5),
