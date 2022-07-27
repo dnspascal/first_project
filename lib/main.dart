@@ -47,13 +47,15 @@ class MyApp extends StatelessWidget {
         subTitle: "Sema tutaona fresh",
         time: "00:50",
         picha: "friend.jpg"),
+
+      
   ];
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Demo',
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          appBar: AppBar(backgroundColor: Color.fromARGB(255, 2, 51, 3)),
+          appBar: AppBar(backgroundColor: Color.fromARGB(255, 1, 75, 2)),
           body: ListView(children: [
             ...listOfCharts.map((value) {
               return ListTile(
